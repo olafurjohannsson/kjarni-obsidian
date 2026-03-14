@@ -54,18 +54,6 @@ Models download automatically on first launch (~22 MB for the encoder, ~22 MB fo
 - **Chunk size** - Characters per chunk when indexing (default 1000)
 - **Debug logging** - Logs timing info to the developer console
 
-## Performance
-
-Indexing speed depends on vault size and your hardware. Rough numbers on a modern laptop:
-
-- 100 notes: ~5 seconds
-- 1,000 notes: ~30 seconds
-- 5,000 notes: ~2 minutes
-
-Search takes 15-30ms. Reranking adds 200-1500ms depending on result count.
-
-After first indexing, only changed files are re-indexed. Opening Obsidian with an existing index takes less than a second.
-
 ## Privacy
 
 No network requests except the one-time model download from kjarni.ai on first launch. After that, everything is local. No telemetry, no analytics, no accounts.
