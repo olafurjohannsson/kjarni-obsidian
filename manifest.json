@@ -1,10 +1,10 @@
 {
-	"id": "kjarni-search",
-	"name": "Kjarni Search",
-	"version": "0.1.0",
-	"minAppVersion": "1.0.0",
-	"description": "Hybrid semantic + keyword search with reranking. Fully local, no API keys, no cloud.",
-	"author": "Kjarni",
-	"authorUrl": "https://kjarni.ai",
-	"isDesktopOnly": true
+    "id": "kjarni-search",
+    "name": "Kjarni. Related Notes & Search",
+    "version": "1.0.0",
+    "description": "Find related notes automatically. Runs locally, no API key, no cloud, your notes never leave your machine.",
+    "author": "Ólafur Aron Jóhannsson",
+    "authorUrl": "https://kjarni.ai",
+    "fundingUrl": "https://github.com/sponsors/olafurjohannsson",
+    "isDesktopOnly": true
 }
