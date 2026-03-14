@@ -14,7 +14,7 @@ Everything runs locally on your machine. No API key. No cloud. No account. Your 
 
 ## How it works
 
-Uses [GitHub](https://github.com/olafurjohannsson/kjarni) under the hood.
+Uses [Kjarni](https://github.com/olafurjohannsson/kjarni) under the hood.
 
 The plugin runs a transformer model (MiniLM-L6-v2) compiled to WebAssembly directly inside Obsidian. Your notes are split into chunks, encoded into vectors, and stored in a local index file. Search and similarity use a combination of BM25 keyword matching and semantic vector similarity.
 
